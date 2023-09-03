@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="bigcontainer">
+        <div class="purple" id="landpage">
+            <h2>Weather Api</h2>
+            <div id="white"><input type="text" placeholder="FetchData" id="FetchData" />
+                <button id="btn"></button>
+            </div>
+
+        </div>
+        <div id="right" class="classright">
+            <div id="rightcontainer" class="rcont">
+                <h3>Welcome To The Weather App</h3>
+                <div id="inputbtn">
+                    <input type="text" placeholder="Here is your current location" />
+                </div>
+                <div id="paradiv">
+                    <p id="lat">Lat:1298838</p>
+                    <p id="long">Long:1298838</p>
+                </div>
+
+                <div id="map">
+                    
+                    <iframe src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed" width="400"
+                        height="300" frameborder="0" style="border:0" style="margin-left:10"></iframe>
+                </div>
+            </div>
+            <h3>Your Weather Location</h3>
+            <div id="rightbottom">
+                <h3>Your Weather Location</h3>
+                <div class="livecol">Location:New Delhi</div>
+                <div class="livecol">windspace:100kmph</div>
+                <div class="livecol">humidity:10</div>
+                <div class="livecol">timezone gmt</div>
+                <div class="livecol">pressure:10atm</div>
+                <div class="livecol">winddirection:northwest</div>
+                <div class="livecol">uv index:500</div>
+                <div class="livecol">feellike:30*</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+#bigcontainer{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid green; */
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#landpage{
+
+    background-color:blue;
+    /* border: 1px solid gray; */
+    width: 400px;
+    height: 200px;
+    /* position: absolute; */
+    /* line-height: 20px; */
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap:10px;
+}
+h2{
+    color:white;
+    margin-top: 20px;
+    padding-top: 20px;
+    
+}
+#FetchData{
+    /* flex-grow:1.5 ; */
+    text-align: center;
+    padding-top: 6px;
+    column-gap: 0px;
+    margin-right:0px ;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 20px; */
+}
+#FetchData:focus{
+outline: none;
+}
+#btn{
+    /* flex-grow:.01 ; */
+    height: 23px;
+    width:20px ;
+    padding-bottom: 2px;
+    padding-left:10px ;
+    margin-left:0px ;
+}
+#right{
+
+}
+#rightcontainer{
+    background-color:blue;
+    height: 400px;
+    width: 500px;
+    margin: 15px;
+}
+.rcont{
+    background-color:blue;
+    height: 400px;
+    width: 500px;
+    margin: 15px;
+}
+h3{
+    color:white;
+}
+
+#inputbtn input{
+    background-color:rgb(0, 0, 139);
+}
+#paradiv{
+    display:flex;
+    gap:20px;
+    color:white;
+    margin-top: 20px;
+}
+#lat{
+    background-color:rgb(0, 0, 139);
+}
+#long{
+    background-color:rgb(0, 0, 139);
+}
+  #rightbottom{
+    background-color:white;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+  }
+  .livecol{
+    min-height: 10px;
+    min-width: 150px;
+    background-color: blue;
+    color:white ;
+  }
